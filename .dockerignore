@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Notebooks and development
+notebooks/
+*.ipynb
+*.ipynb_checkpoints/
+
+# Tests
+tests/
+.pytest_cache/
+htmlcov/
+.coverage
+*.coveragerc
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Large data files (exclude from Docker)
+*.csv
+!data/processed/*.csv
+data/raw/
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Keep only essential model files
+data/models/*.pkl
+!data/models/best_model_gradientboosting.pkl
+!data/models/xgboost_tuned.pkl
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Requirements for development only
+requirements-dev.txt
+requirements-full.txt
