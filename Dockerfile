@@ -23,7 +23,7 @@ COPY src/ ./src/
 COPY data/models/ ./data/models/
 COPY data/processed/ ./data/processed/
 COPY data/explainability/ ./data/explainability/
-
+COPY frontend/ ./frontend/
 # Create necessary directories
 RUN mkdir -p logs
 
